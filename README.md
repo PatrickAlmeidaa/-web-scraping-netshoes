@@ -25,8 +25,10 @@ pip install fpdf2
 ```Bash
 python3 coleta_dados_netshoes.py
 ```
-O script solicitará o link do produto a ser utilizado. Copie o link do produto na página da Netshoes e cole no código como no exemplo a baixo. O script irá extrair as informações do produto e gerar um arquivo PDF com as informações coletadas.
+O script solicitará o link do produto a ser utilizado. Copie o link do produto na página da Netshoes, abra o scripto no editor de texto e cole no código como no exemplo a baixo. O script irá extrair as informações do produto e gerar um arquivo PDF com as informações coletadas.
 
 ```Python
-scraper.scrape('hproduto_netshoes_desejado')
+scraper.scrape('produto_netshoes_desejado')
 ```
+#Importante
+Os dados coletados do produto desejado estárão disponiveis no PDF nomeado como "dados_produto.pdf" para facilitar a visualização. 
