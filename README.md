@@ -1,7 +1,7 @@
 # Web Scraping de Produto da Netshoes
 Este é um projeto de web scraping para coletar informações sobre produtos da Netshoes, como nome, preço, descrição, atributos e imagem. O objetivo é extrair informações úteis para análises de mercado, pesquisa de preços e comparação de produtos.
 
-#Como funciona
+## Como funciona
 O projeto é desenvolvido em Python, utilizando a biblioteca beautifulsoup4 para fazer a coleta de dados do HTML da página do produto selecionado, e a biblioteca fpdf2 para gerar um PDF com as informações coletadas.
 
 Para executar o projeto, siga os passos abaixo:
@@ -30,5 +30,5 @@ O script solicitará o link do produto a ser utilizado. Copie o link do produto 
 ```Python
 scraper.scrape('produto_netshoes_desejado')
 ```
-#Importante
+## Importante
 Os dados coletados do produto desejado estárão disponiveis no PDF nomeado como "dados_produto.pdf" para facilitar a visualização. 
